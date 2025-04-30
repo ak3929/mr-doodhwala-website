@@ -217,10 +217,15 @@ fieldset legend {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 95px 0;
   background-attachment: fixed;
-  min-height: 400px; /* ← You can increase this value as needed */
+  min-height: 400px;
+
+  display: flex;                /* Enables flexbox */
+  justify-content: center;     /* Horizontal centering */
+  align-items: center;         /* Vertical centering */
+  padding: 0;                  /* Remove vertical padding to center exactly */
 }
+
 .food-search input[type="search"] {
   width: 50%;
   padding: 11px;
