@@ -219,6 +219,7 @@ fieldset legend {
   background-position: center;
   padding: 95px 0;
   background-attachment: fixed;
+  min-height: 400px; /* ← You can increase this value as needed */
 }
 .food-search input[type="search"] {
   width: 50%;
